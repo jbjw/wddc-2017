@@ -1,0 +1,45 @@
+#map {
+	/*height: 800px;
+	width: 100%;*/
+	border: 10px ridge grey;
+	flex-grow: 1;
+	margin: 10px;
+	/*height: 80%;*/
+	/*width: 95vw;*/
+}
+
+#info {
+	border: 10px ridge grey;
+	flex-grow: 0;
+	margin: 10px;
+	padding: 10px;
+	background-color: saddlebrown;
+	text-align: center;
+
+	font-size: 100px;
+	font-weight: regular;
+	font-family: Josefin Sans, sans-serif;
+
+}
+
+body {
+	background-color: sienna;
+	display: flex;
+	justify-content: center;
+	align-items: stretch;
+	flex-direction: column;
+	/*align-content: center;*/
+
+
+	min-height: 100%;
+	/*height: 100vh;*/
+	margin: 0;
+	padding: 0px;
+}
+
+html {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+
+}
