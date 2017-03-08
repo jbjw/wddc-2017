@@ -1,0 +1,36 @@
+{
+  "name": "wddc-2017",
+  "version": "1.0.0",
+  "description": "Project for the 2017 Wikipedia Data Design Challenge",
+  "dependencies": {
+    "express": "^4.14.0",
+    "hapi": "^16.0.1",
+    "leaflet": "^1.0.3",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "ws": "^1.1.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.22.1",
+    "babel-loader": "^6.2.10",
+    "babel-preset-es2015": "^6.22.0",
+    "babel-preset-react": "^6.22.0",
+    "webpack": "^2.2.1"
+  },
+  "scripts": {
+    "start": "webpack-dev-server",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jbjw/wddc-2017.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jbjw/wddc-2017/issues"
+  },
+  "homepage": "https://github.com/jbjw/wddc-2017#readme",
+  "keywords": []
+}
